@@ -1,0 +1,125 @@
+ClrList L₆
+getTime→L₆
+(L₆(1)*3600)+(L₆(2)*60)→S
+getDate→L₅
+dayOfWk(L₅(1),L₅(2),L₅(3))→D
+
+If D≠3 and D≠5:Then
+If S≥26400 and S≤29100:Then
+Disp "PERIOD ENDS:"
+Disp "8:05"
+(29100-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥29400 and S≤32400:Then
+Disp "PERIOD ENDS:"
+Disp "9:00"
+(32400-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥32700 and S≤35400:Then
+Disp "PERIOD ENDS:"
+Disp "9:50"
+(35400-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥35700 and S≤38400:Then
+Disp "PERIOD ENDS:"
+Disp "10:40"
+(38400-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥38700 and S≤41400:Then
+Disp "PERIOD ENDS:"
+Disp "11:30"
+(41400-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥41700 and S≤44400:Then
+Disp "PERIOD ENDS:"
+Disp "12:20"
+(44400-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥44700 and S≤46500:Then
+Disp "PERIOD ENDS:"
+Disp "12:55"
+(46500-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥46800 and S≤49500:Then
+Disp "PERIOD ENDS:"
+Disp "1:45"
+(49500-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥49800 and S≤52500:Then
+Disp "PERIOD ENDS:"
+Disp "2:35"
+(52500-S)/60→T
+Disp "MINS LEFT:",T
+End
+
+Else
+
+If S≥26400 and S≤28860:Then
+Disp "PERIOD ENDS:"
+Disp "8:01"
+(28860-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥29160 and S≤31920:Then
+Disp "PERIOD ENDS:"
+Disp "8:52"
+(31920-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥32220 and S≤34680:Then
+Disp "PERIOD ENDS:"
+Disp "9:38"
+(34680-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥34980 and S≤36600:Then
+Disp "PERIOD ENDS:"
+Disp "10:10"
+(36600-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥36900 and S≤39360:Then
+Disp "PERIOD ENDS:"
+Disp "10:56"
+(39360-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥39660 and S≤42120:Then
+Disp "PERIOD ENDS:"
+Disp "11:42"
+(42120-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥42420 and S≤44880:Then
+Disp "PERIOD ENDS:"
+Disp "12:28"
+(44880-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥45180 and S≤46980:Then
+Disp "PERIOD ENDS:"
+Disp "1:03"
+(46980-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥47280 and S≤49740:Then
+Disp "PERIOD ENDS:"
+Disp "1:49"
+(49740-S)/60→T
+Disp "MINS LEFT:",T
+End
+If S≥50040 and S≤52500:Then
+Disp "PERIOD ENDS:"
+Disp "2:35"
+(52500-S)/60→T
+Disp "MINS LEFT:",T
+End
+End
