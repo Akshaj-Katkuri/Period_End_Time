@@ -1,7 +1,6 @@
 Follow these steps to add the program to your calculator: 
 
-1. Select the corresponding folder for your lunch period, and download the .8xp file. (You can ignore the raw_code.txt, that is just for anyone looking to see the code for the program)
-![image](https://github.com/user-attachments/assets/bcf177b2-1db3-4a1f-bf1d-ee9439cd6851)
+1. Select the corresponding .8xp file for your lunch period and download it.
 
 2. Intall the TI Connect software: https://education.ti.com/en/software/details/en/B59F6C83468C4574ABFEE93D2BC3F807/swticonnectsoftware
    Select the download corresponding to your device's operating system.
